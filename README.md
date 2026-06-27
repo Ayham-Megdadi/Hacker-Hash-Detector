@@ -36,16 +36,17 @@ python3 AY_hash.py
 Most beginners struggle with identifying hash types and understanding cryptographic strength. This tool simplifies the process and provides real-world awareness of secure and insecure hashing methods.
 
 # CLI examples
+```
 python3 Ayham.py detect <hash>
 python3 Ayham.py generate "password" -a SHA256
 python3 Ayham.py hmac "message" "secret" -a SHA512
 python3 Ayham.py hashfile /path/to/file
 python3 Ayham.py batch hashes.txt
 python3 Ayham.py compare <hash1> <hash2>
+```
 
-
-## Supported Hash Types
+## 🧬 Supported Hash Types
 MD5 · SHA1 · SHA224 · SHA256 · SHA384 · SHA512 · SHA3-256 · SHA3-512 · bcrypt · Argon2 · scrypt · PBKDF2 · CRC32 · MySQL323 · Tiger192
 
-## Disclaimer
+## ⚠️ Disclaimer
 This tool is intended **strictly for educational and ethical purposes**.
