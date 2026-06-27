@@ -9,9 +9,14 @@
   <img src="https://img.shields.io/badge/Purpose-Educational-red?style=for-the-badge"/>
 </p>
 
+---
+
 > Developed by **Ayham Belal Megdadi** — For Educational & Ethical Use Only
 
-## Features
+---
+
+## 📌 Features
+
 | Feature | Description |
 |---|---|
 | 🔍 Hash Detection | MD5, SHA1, SHA256, SHA512, SHA3, bcrypt, Argon2, scrypt... |
@@ -22,29 +27,50 @@
 | ⚖️ Compare | Constant-time safe comparison |
 | 💪 Strength Rating | Weak / Moderate / Strong rating for each hash |
 
-## About
+---
+
+## 🧠 About
+
 Ayham Hash Detector Tool is a cybersecurity educational project designed to help students and beginners understand how different hashing algorithms work, how to identify them, and how to safely analyze hash structures.
 
-## Installation
-\```bash
+---
+
+## ⚙️ Installation
+
+```bash
 git clone https://github.com/Ayham-Megdadi/Hacker-Hash-Detector.git
 cd Hacker-Hash-Detector
 python3 AY_hash.py
 
-## Why this tool?
-Most beginners struggle with identifying hash types and understanding cryptographic strength. This tool simplifies the process and provides real-world awareness of secure and insecure hashing methods.
+❓ Why this tool?
 
-# CLI examples
+Most beginners struggle with identifying hash types and understanding cryptographic strength.
+This tool simplifies the process and provides real-world awareness of secure and insecure hashing methods.
+
+💻 CLI Examples
+# Detect hash type
 python3 Ayham.py detect <hash>
-python3 Ayham.py generate "password" -a SHA256
-python3 Ayham.py hmac "message" "secret" -a SHA512
-python3 Ayham.py hashfile /path/to/file
-python3 Ayham.py batch hashes.txt
-python3 Ayham.py compare <hash1> <hash2>
-\```
 
-## Supported Hash Types
+# Generate hash from plaintext
+python3 Ayham.py generate "password" -a SHA256
+
+# Generate HMAC
+python3 Ayham.py hmac "message" "secret" -a SHA512
+
+# Hash a file
+python3 Ayham.py hashfile /path/to/file
+
+# Batch analysis
+python3 Ayham.py batch hashes.txt
+
+# Compare hashes
+python3 Ayham.py compare <hash1> <hash2>
+🧬 Supported Hash Types
+
 MD5 · SHA1 · SHA224 · SHA256 · SHA384 · SHA512 · SHA3-256 · SHA3-512 · bcrypt · Argon2 · scrypt · PBKDF2 · CRC32 · MySQL323 · Tiger192
 
-## Disclaimer
-This tool is intended **strictly for educational and ethical purposes**.
+⚠️ Disclaimer
+
+This tool is intended strictly for educational and ethical purposes only.
+It must not be used for unauthorized access, attacks, or malicious activity.
+The developer is not responsible for any misuse.
