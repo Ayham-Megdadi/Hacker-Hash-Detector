@@ -32,7 +32,7 @@ cd Hacker-Hash-Detector
 python3 AY_hash.py
 ```
 
-## Why this tool?
+## ❓ Why this tool?
 Most beginners struggle with identifying hash types and understanding cryptographic strength. This tool simplifies the process and provides real-world awareness of secure and insecure hashing methods.
 
 # CLI examples
