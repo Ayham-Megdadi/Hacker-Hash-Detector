@@ -22,10 +22,17 @@
 | ⚖️ Compare | Constant-time safe comparison |
 | 💪 Strength Rating | Weak / Moderate / Strong rating for each hash |
 
-## Usage
+## About
+Ayham Hash Detector Tool is a cybersecurity educational project designed to help students and beginners understand how different hashing algorithms work, how to identify them, and how to safely analyze hash structures.
+
+## Installation
 \```bash
-# Interactive mode
-python3 Ayham.py
+git clone https://github.com/Ayham-Megdadi/Hacker-Hash-Detector.git
+cd Hacker-Hash-Detector
+python3 AY_hash.py
+
+## Why this tool?
+Most beginners struggle with identifying hash types and understanding cryptographic strength. This tool simplifies the process and provides real-world awareness of secure and insecure hashing methods.
 
 # CLI examples
 python3 Ayham.py detect <hash>
